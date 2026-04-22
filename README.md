@@ -61,27 +61,6 @@ Python 3.x - The Python programming language (version 3.x).
 
 **hostapd:** A user space daemon for access point and authentication servers.
 
-## Installation
-
-To use WiFi Analyser, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/NitheshD05/Wifi-analyser.git
-   cd Wifi-analyser
-   ```
-2. Install the required Python packages:
-   ```bash
-   sudo apt-get update
-   sudo apt-get install -y aircrack-ng reaver crunch dnsmasq hostapd
-   pip install -r requirements.txt
-   ```
-4. ## Usage
-Run the main script opt.py to start the WiFi Analyzer tool and access the menu options:
-```bash
-python3 opt.py
-```
 ### Menu Options
 ```bash
 ****************************************************************
@@ -108,7 +87,3 @@ python3 opt.py
 ****************************************************************
 ```
 
-
-## Disclaimer
-
-This tool is intended for educational purposes only. The authors are not responsible for any misuse or damage caused by this tool. Use it responsibly and only on networks you own or have permission to test.
